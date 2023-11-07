@@ -1,26 +1,62 @@
 /* Write your CSS here! */
-/* .links {
+body {
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 918px;
+    display: block;
+    background: bisque
+}
+#mainHeading{
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    color: cyan;
+    padding : 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#testP {
+    color: black;
+    margin-left: 40px;
+    margin-left: 40px;
+}
+
+.funParagraph {
+    color: green;
+    margin-left: 40px;
+    margin-left: 40px;
+}
+
+.links ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    text-align: center;
+    background-color: rgba(68, 182, 33, 0.919);
   }
   
 .links li {
     float: left;
+    
   }
   
 .links li a {
     display: block;
-    color: white;
+    color: rgb(20, 9, 238);
     text-align: center;
+    
     padding: 14px 16px;
     text-decoration: none;
+    border-right: 4px solid bisque
 }
-  /* Change the link color to #111 (black) on hover */
-/* .links li a:hover {
-    background-color: #111;
+
+/* Change the link color to #111 (black) on hover */
+.links li a:hover {
+    background-color: rgb(229, 247, 28);
 }
 
 * {
@@ -29,18 +65,22 @@
   
   .imagesColumn {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
     float: left;
-    width: 25%;
+    width: 50%;
     padding: 5px;
+    /* text-align: center; */
   }
   
   /* Clearfix (clear floats) */
-  /* .imagesRow::after {
+  .imagesRow::after {
     content: "";
     clear: both;
     display: table;
-  } */
+  }
+
+  #bottomTop {
+    text-align: right;
+    padding-right: 50px;
+  }
