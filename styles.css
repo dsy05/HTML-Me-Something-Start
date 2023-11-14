@@ -3,6 +3,7 @@ body {
     margin: 50px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
     width: 918px;
     display: block;
     background: bisque
@@ -25,6 +26,10 @@ h2 {
 }
 
 .funParagraph {
+  
+    max-width: 100%;
+    height: auto;
+    width: auto;
     color: green;
     margin-left: 40px;
     margin-left: 40px;
